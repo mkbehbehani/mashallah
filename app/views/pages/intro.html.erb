@@ -1,0 +1,84 @@
+<section class="intro">
+	<header class="wrapper">
+		<h1>I'm Mashallah Behbehani</h1>
+		<h2>I make websites and webapps.</h2>
+		<h3>Here's what I've been up to lately:</h3>
+	</header>
+</section>
+
+<section class="issflyby">
+	<div class="swiper-container">
+	<h1>ISS Flyby</h1>
+	<h2>Notifications to your Google Glass as the ISS approaches.</h2>
+	  <div class="swiper-wrapper">
+	    <div class="swiper-slide swiper-slide-visible swiper-slide-active">
+		    <div class="glasscard">
+		    	<%= image_tag("iss.jpg") %>
+			    <p>International Space Station flyby coming up  at 05:33 AM CST!</p>
+			    <footer><span class="source">ISS Flyby</span><span class="time">3 mins ago</span></footer>
+		    </div>
+	    </div>
+	    	<div class="swiper-slide swiper-slide-visible">
+					<div class="description"><p>See who's on the ISS at that moment. </p></div>
+		    	<div class="glasscard">
+		    		<%= image_tag("ryazanskiy.jpg") %>
+			    	<p>Sergey Ryazanskiy is on board.</p>
+			    <footer><span class="source">ISS Flyby</span><span class="time">3 mins ago</span></footer>
+		    	</div>
+	    	</div>
+	    	<div class="swiper-slide">
+		    		<div class="description"><p>Flybys are determined by your Google Glass' position.</p></div>
+		    	<div class="glasscard">
+		    		<%= image_tag("kotov.jpg") %>
+			    	<p>Oleg Kotov is on board.</p>
+			    <footer><span class="source">ISS Flyby</span><span class="time">3 mins ago</span></footer>
+		    	</div>
+	    	</div>
+	    	<div class="swiper-slide">
+		    		<div class="description"><p> Sunrise, sunset and even clouds are factored in. </p></div>
+		    	<div class="glasscard">
+		    		<%= image_tag("hopkins.jpg") %>
+			    	<p>Michael Hopkins is on board.</p>
+			    <footer><span class="source">ISS Flyby</span><span class="time">3 mins ago</span></footer>
+		    	</div>
+	    	</div>
+	    	<div class="swiper-slide">
+		    		<div class="description"><p>You'll only receive flybys worth running outside for.</p></div>
+		    	<div class="glasscard">
+		    		<%= image_tag("wakata.jpg") %>
+			    	<p>Koichi Wakata is on board.</p>
+			    <footer><span class="source">ISS Flyby</span><span class="time">3 mins ago</span></footer>
+		    	</div>
+	    	</div>
+	    	<div class="swiper-slide">
+		    		<div class="description"><p>20 mins later the cards disappear, leaving your timeline clean.</p></div>
+		    	<div class="glasscard">
+		    		<%= image_tag("mastracchio.jpg") %>
+			    	<p>Richard A. Mastracchio is on board.</p>
+			    <footer><span class="source">ISS Flyby</span><span class="time">3 mins ago</span></footer>
+		    	</div>
+	    	</div>
+	  </div>
+	  <div class="pagination"></div>
+	</div>
+	
+
+</section>
+<section class="personaloptics">
+	<header>
+		<h1>Personal Optics</h1>
+		<h2>Fully responsive site and appointment application</h2>
+	</header>
+	<%= image_tag("personaloptics_side_crop.png") %>
+</section>
+
+<script>
+var mySwiper = new Swiper('.swiper-container',{
+  pagination: '.pagination',
+  paginationClickable: true,
+  centeredSlides: true,
+  slidesPerView: 'auto',
+  watchActiveIndex: true,
+  keyboardControl:true
+})
+</script>
