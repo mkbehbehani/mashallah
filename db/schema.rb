@@ -11,7 +11,17 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140624043752) do
+ActiveRecord::Schema.define(version: 20140624043931) do
+
+  create_table "posts", force: true do |t|
+    t.string   "title"
+    t.text     "body"
+    t.integer  "technology_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "posts", ["technology_id"], name: "index_posts_on_technology_id"
 
   create_table "projects", force: true do |t|
     t.string   "name"
