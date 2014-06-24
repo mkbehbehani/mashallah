@@ -17,7 +17,9 @@ gem 'sendgrid'
 gem 'bourbon'
 gem 'neat'
 gem 'devise'
-
+gem 'rails_12factor', group: :production
+gem 'newrelic_rpm'
+gem 'figaro', group: [:development, :test]
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
