@@ -310,3 +310,10 @@ $largedesktop-cardscale:1;
   header{@include span-columns(6 of 12);}
   img{@include span-columns(3 of 12); @include shift(1);}
 }
+.tangelo{
+  header{
+    @include span-columns(6);
+    padding: 2em;
+  }
+  video{@include span-columns(6);}
+}
