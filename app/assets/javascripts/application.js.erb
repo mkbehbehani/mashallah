@@ -14,3 +14,15 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+$( document ).ready(function() {
+    if (Modernizr.video.webm && Modernizr.mq('only all and (min-width: 1000px)')) {
+        $( "#videobg" ).append( "<video autoplay=true loop=true src= <%= video_path 'tangelo.webm' %>></video>" );
+        $( "#videobg>img" ).remove();
+
+    } else if(Modernizr.video.h264 && Modernizr.mq('only all and (min-width: 1000px)')) {
+        $( "#videobg" ).append( "<video autoplay=true loop=true src= <%= video_path 'tangelo.mp4' %>></video>" );
+        $( "#videobg>img" ).remove();
+
+    }
+
+});
