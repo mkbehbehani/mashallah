@@ -82,7 +82,7 @@
       padding: 1em;
       position: relative;
       color: white;
-      font-weight: 800;
+      font-weight: 300;
       text-align: center;
     }
   }
@@ -92,7 +92,7 @@
             transparentize($image-gradient-color-bottom, $transparency-bottom));
     display: block;
     @include position(absolute, 0px 0px 0px 50%);
-    width:100%;
+    width:50%;
 
     &:after {
       content: '';

@@ -32,7 +32,6 @@ $largedesktop-cardscale:1;
   background-attachment: fixed;
   padding: 2em 0;
   h1{
-    font-family: 'Roboto', sans-serif;
     font-weight: 100;
     @include media($desktop) {
       font-size: $base-font-size*4;
@@ -42,7 +41,6 @@ $largedesktop-cardscale:1;
 
   }
   h2{
-    font-family: 'Roboto', sans-serif;
     font-weight: 100;
     padding: 0 1em;
     @include media($desktop) {
