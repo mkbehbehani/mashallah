@@ -8,6 +8,7 @@
   height: 300px;
   @include background(url(image_path('mashallah_japan.jpg')));
   background-size: cover;
+
 }
 .wrapper{
   @include span-columns(6);

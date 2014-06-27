@@ -43,16 +43,16 @@
   }
 }
 .image-gradient-dynamic {
-  $image-gradient-color-top: blue;
-  $transparency-top: .6;
-  $image-gradient-color-bottom: white;
+  $image-gradient-color-top: #002f4b;
+  $transparency-top: .4;
+  $image-gradient-color-bottom: #fcfaff;
   $transparency-bottom: .6;
   $vertical-angle: 180deg;
 
-  $image-gradient-color-left: green;
-  $transparency-left: .8;
-  $image-gradient-color-right: white;
-  $transparency-right: .8;
+  $image-gradient-color-left: rgba(0, 0, 0, 0.38);
+  $transparency-left: .6;
+  $image-gradient-color-right: #5a5a5a;
+  $transparency-right: .6;
   $horizontal-angle: 90deg;
 
   position: relative;
