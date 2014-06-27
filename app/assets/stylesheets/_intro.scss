@@ -5,10 +5,9 @@
 @import "components";
 @import "swiper";
 .intro{
-  height: 300px;
-  @include background(url(image_path('mashallah_japan.jpg')));
-  background-size: cover;
-
+  h1{font-size:2em;}
+  h2{font-size: 1.5em;}
+  p{font-size: 1em;}
 }
 .wrapper{
   @include span-columns(6);
@@ -30,7 +29,7 @@ $largedesktop-cardscale:1;
   color: #fff;
   background-size: cover;
   background-attachment: fixed;
-  padding: 2em 0;
+  padding: 2em 1em;
   h1{
     font-weight: 100;
     @include media($desktop) {
@@ -42,7 +41,6 @@ $largedesktop-cardscale:1;
   }
   h2{
     font-weight: 100;
-    padding: 0 1em;
     @include media($desktop) {
       font-size: $base-font-size*2;
       text-align: left;
@@ -156,11 +154,10 @@ $largedesktop-cardscale:1;
 
 .swiper-container {
   width: 100%;
-  height: 220px;
+  height: 800px;
   color: #fff;
-  text-align: center;
   @include media($largemobile) {
-    height: 450px;
+    height: 500px;
   }
   @include media($smalltablet) {
     height:395px;
