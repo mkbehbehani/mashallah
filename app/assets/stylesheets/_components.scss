@@ -43,22 +43,21 @@
   }
 }
 .image-gradient-dynamic {
-  $image-gradient-color-top: orange;
+  $image-gradient-color-top: blue;
   $transparency-top: .6;
-  $image-gradient-color-bottom: teal;
+  $image-gradient-color-bottom: white;
   $transparency-bottom: .6;
   $vertical-angle: 180deg;
 
-  $image-gradient-color-left: teal;
+  $image-gradient-color-left: green;
   $transparency-left: .8;
-  $image-gradient-color-right: yellow;
+  $image-gradient-color-right: white;
   $transparency-right: .8;
   $horizontal-angle: 90deg;
 
   position: relative;
   line-height: 0;
   width: 100%;
-  margin-bottom: $base-line-height;
 
   img {
     width: 100%;
@@ -84,7 +83,7 @@
       position: relative;
       color: white;
       font-weight: 800;
-      text-align: right;
+      text-align: center;
     }
   }
 
@@ -92,8 +91,7 @@
     @include linear-gradient($vertical-angle, transparentize($image-gradient-color-top, $transparency-top),
             transparentize($image-gradient-color-bottom, $transparency-bottom));
     display: block;
-    @include position(absolute, 0px 0px 0px 47%);
-    @include transform(skew(-15deg));
+    @include position(absolute, 0px 0px 0px 50%);
     width:100%;
 
     &:after {
