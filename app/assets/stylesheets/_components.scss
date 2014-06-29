@@ -69,21 +69,28 @@
 
   .copy {
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 45%;
+    left: 45%;
     margin: auto;
     z-index: 999;
-    text-align: center;
+    text-align: left;
     @include transform(translate(0%, -50%));
 
     h1, h2, h3, p {
       font-size: 1.1em;
       line-height: 1.5em;
-      padding: 1em;
       position: relative;
       color: white;
       font-weight: 300;
-      text-align: center;
+    }
+    h1{
+      width: 70%;
+    }
+    h2{
+      padding: 1em 0 0 1em;
+    }
+    h3{
+      padding: 1em 0 0 2em;
     }
   }
 
@@ -91,8 +98,10 @@
     @include linear-gradient($vertical-angle, transparentize($image-gradient-color-top, $transparency-top),
             transparentize($image-gradient-color-bottom, $transparency-bottom));
     display: block;
-    @include position(absolute, 0px 0px 0px 50%);
-    width:50%;
+    @include position(absolute, 0px 0px 0px 45%);
+    @include transform(skew(15deg));
+
+    width:75%;
 
     &:after {
       content: '';
