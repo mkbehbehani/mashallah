@@ -113,16 +113,6 @@ $largedesktop-cardscale:1;
       padding: 0.5em;
     }
     @include media($smalltablet) {
-      font-size:2em;
-    }
-    @include media($ipad) {
-      font-size:1.2em;
-      padding: 0.5em;
-    }
-    @include media($desktop) {
-      font-size:2em;
-      line-height: 1.25em;
-      padding: 1.5em 0.5em 0.5em 0.5em;
     }
   }
   footer{
@@ -162,7 +152,7 @@ $largedesktop-cardscale:1;
     height: 350px;
   }
   @include media($smalltablet) {
-    height:395px;
+    height: 450px;
   }
   @include media($ipad) {
     height:420px;
@@ -175,6 +165,9 @@ $largedesktop-cardscale:1;
 }
 .swiper-wrapper{
   height: 250px !important;
+  @include media($smalltablet) {
+    height: 350px !important;
+  }
   @include media($desktop) {
     max-height:405px;
     padding: 2em 0 0 0;
