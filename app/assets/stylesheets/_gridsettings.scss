@@ -18,10 +18,13 @@ $largemobile-min-width:319px;
 $sabre-pyramid:1337px;
 
 // Bourbon Neat Breakpoints
-$largemobile: new-breakpoint(min-device-width $largemobile-min-width max-device-width $largemobile-max-width, 12);
-$smalltablet: new-breakpoint(min-device-width $smalltablet-min-width max-device-width $smalltablet-max-width, 12);
-$ipad: new-breakpoint(min-device-width $ipad-min-width max-device-width $ipad-max-width, 12);
-$desktop: new-breakpoint(min-device-width $desktop-min-width , 12);
-$meddesktop: new-breakpoint(min-device-width $meddesktop-min-width max-device-width $meddesktop-max-width, 12);
-$largedesktop: new-breakpoint(min-device-width $largedesktop-min-width max-device-width $largedesktop-max-width, 12);
-$cinemadisplay: new-breakpoint(min-device-width $cinemadisplay-min-width max-device-width 3000px,  12);
+$largemobile: new-breakpoint(min-width $largemobile-min-width, 12);
+$smalltablet: new-breakpoint(min-width $smalltablet-min-width, 12);
+$tablet: new-breakpoint(min-width $ipad-min-width, 12);
+$desktop: new-breakpoint(min-width $desktop-min-width, 12);
+$meddesktop: new-breakpoint(min-width $meddesktop-min-width, 12);
+$largedesktop: new-breakpoint(min-width $largedesktop-min-width, 12);
+$cinemadisplay: new-breakpoint(min-width $cinemadisplay-min-width,  12);
+
+// Specific device targeting
+$ipad: new-breakpoint(min-width $ipad-min-width max-device-width $ipad-max-width, 12);
