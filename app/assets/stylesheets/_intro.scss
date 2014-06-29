@@ -13,7 +13,6 @@
     padding: 2em;
   }
   video{@include span-columns(6);}
-
 }
 .wrapper{
   @include span-columns(6);
@@ -25,11 +24,7 @@ $smalltablet-cardscale:0.8;
 $ipad-cardscale:0.8;
 $desktop-cardscale:1;
 $largedesktop-cardscale:1;
-.project{
 
-
-
-}
 .issflyby{
   background-image: url(san_rafael.jpg);
   color: #fff;
@@ -303,7 +298,12 @@ $largedesktop-cardscale:1;
 }
 .personaloptics{
   @include span-columns(12);
-  img{@include span-columns(8 of 12); @include shift(2);}
+  img{
+    @include span-columns(8 of 12); @include shift(2);
+    @include media($smalltablet) {
+      @include span-columns(6 of 12); @include shift(3);
+    }
+  }
   .imagewrap{
     @include span-columns(12);
     padding: 2em 0 0 0;

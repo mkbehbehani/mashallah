@@ -78,6 +78,9 @@
 
     h1, h2, h3, p {
       font-size: 1.1em;
+      @include media($smalltablet) {
+        font-size: 1.7em;
+      }
       line-height: 1.5em;
       position: relative;
       color: white;
