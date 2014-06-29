@@ -93,8 +93,8 @@
       <file leaf-file-name="_intro.scss" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/_intro.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.43396226" vertical-offset="5091" max-vertical-offset="5886">
-              <caret line="302" column="55" selection-start-line="302" selection-start-column="55" selection-end-line="302" selection-end-column="55" />
+            <state vertical-scroll-proportion="0.9018868" vertical-offset="3027" max-vertical-offset="5868">
+              <caret line="208" column="3" selection-start-line="208" selection-start-column="3" selection-end-line="208" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -712,7 +712,11 @@
       <created>1404084168585</created>
       <updated>1404084168585</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="fixes background image pattern url">
+      <created>1404084304749</created>
+      <updated>1404084304749</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -755,7 +759,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="Updates gemfile" />
     <MESSAGE value="Adds new relic yml" />
     <MESSAGE value="Sets up static assets config" />
     <MESSAGE value="Adds video files" />
@@ -780,7 +783,8 @@
     <MESSAGE value="Begins styling for small tablet" />
     <MESSAGE value="Improves glass card container on small tablet" />
     <MESSAGE value="fixes san rafael bg" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixes san rafael bg" />
+    <MESSAGE value="fixes background image pattern url" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixes background image pattern url" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1129,14 +1133,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/pages/intro.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-26.0" vertical-offset="666" max-vertical-offset="1890">
-          <caret line="76" column="53" selection-start-line="76" selection-start-column="53" selection-end-line="76" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/_gridsettings.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-13.333333" vertical-offset="0" max-vertical-offset="648">
@@ -1161,10 +1157,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/pages/intro.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-26.0" vertical-offset="666" max-vertical-offset="1890">
+          <caret line="76" column="53" selection-start-line="76" selection-start-column="53" selection-end-line="76" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/_intro.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.43396226" vertical-offset="5091" max-vertical-offset="5886">
-          <caret line="302" column="55" selection-start-line="302" selection-start-column="55" selection-end-line="302" selection-end-column="55" />
+        <state vertical-scroll-proportion="0.9018868" vertical-offset="3027" max-vertical-offset="5868">
+          <caret line="208" column="3" selection-start-line="208" selection-start-column="3" selection-end-line="208" selection-end-column="3" />
           <folding />
         </state>
       </provider>

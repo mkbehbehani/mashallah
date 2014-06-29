@@ -103,16 +103,15 @@ $largedesktop-cardscale:1;
     float: right;
     font-family: 'Roboto', sans-serif;
     font-weight: 100;
-    font-size: 1em;
+    font-size: 1.3em;
+    padding: 0.5em;
     color: #fff;
     width: 62%;
-    padding: 0.8em;
     text-align: left;
-    @include media($largemobile) {
-      font-size: 1.3em;
-      padding: 0.5em;
-    }
     @include media($smalltablet) {
+      font-size: 2em;
+      line-height: 1em;
+      padding: 1em 0.5em 0.5em 0.5em;
     }
   }
   footer{
