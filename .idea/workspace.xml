@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1743e630-f25b-4359-a1ce-043349b7914d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/struckaxiom.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/_components.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/_components.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/_intro.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/_intro.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/application.js.erb" afterPath="$PROJECT_DIR$/app/assets/javascripts/application.js.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/pages/intro.html.erb" afterPath="$PROJECT_DIR$/app/views/pages/intro.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -96,8 +94,8 @@
       <file leaf-file-name="application.js.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-18.0" vertical-offset="0" max-vertical-offset="594">
-              <caret line="27" column="3" selection-start-line="27" selection-start-column="3" selection-end-line="27" selection-end-column="3" />
+            <state vertical-scroll-proportion="-22.0" vertical-offset="0" max-vertical-offset="720">
+              <caret line="33" column="7" selection-start-line="33" selection-start-column="7" selection-end-line="33" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -116,8 +114,8 @@
       <file leaf-file-name="intro.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/pages/intro.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.81860465" vertical-offset="600" max-vertical-offset="1944">
-              <caret line="92" column="10" selection-start-line="92" selection-start-column="10" selection-end-line="92" selection-end-column="10" />
+            <state vertical-scroll-proportion="0.59534883" vertical-offset="438" max-vertical-offset="1728">
+              <caret line="67" column="10" selection-start-line="67" selection-start-column="10" selection-end-line="67" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -152,6 +150,7 @@
         <option value="$PROJECT_DIR$/app/assets/stylesheets/application.scss" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/_components.scss" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/_intro.scss" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/application.js.erb" />
         <option value="$PROJECT_DIR$/app/views/pages/intro.html.erb" />
       </list>
     </option>
@@ -702,7 +701,11 @@
       <created>1404073025680</created>
       <updated>1404073025680</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Adds contact section">
+      <created>1404075414256</created>
+      <updated>1404075414256</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -745,7 +748,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="Replaces assets" />
     <MESSAGE value="Adds assets" />
     <MESSAGE value="updates readme" />
     <MESSAGE value="Adds user model" />
@@ -770,7 +772,8 @@
     <MESSAGE value="Modifies iss panel for mobile" />
     <MESSAGE value="Adds diagonal text styling" />
     <MESSAGE value="fixes PO panel" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixes PO panel" />
+    <MESSAGE value="Adds contact section" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adds contact section" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1119,14 +1122,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-18.0" vertical-offset="0" max-vertical-offset="594">
-          <caret line="27" column="3" selection-start-line="27" selection-start-column="3" selection-end-line="27" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.3333333" vertical-offset="0" max-vertical-offset="468">
@@ -1143,6 +1138,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-22.0" vertical-offset="0" max-vertical-offset="720">
+          <caret line="33" column="7" selection-start-line="33" selection-start-column="7" selection-end-line="33" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/_intro.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-43.77778" vertical-offset="4452" max-vertical-offset="5742">
@@ -1153,8 +1156,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/pages/intro.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.81860465" vertical-offset="600" max-vertical-offset="1944">
-          <caret line="92" column="10" selection-start-line="92" selection-start-column="10" selection-end-line="92" selection-end-column="10" />
+        <state vertical-scroll-proportion="0.59534883" vertical-offset="438" max-vertical-offset="1728">
+          <caret line="67" column="10" selection-start-line="67" selection-start-column="10" selection-end-line="67" selection-end-column="10" />
           <folding />
         </state>
       </provider>

@@ -24,5 +24,12 @@ $( document ).ready(function() {
         $( "#videobg>img" ).remove();
 
     }
-
+    var mySwiper = new Swiper('.swiper-container',{
+        pagination: '.pagination',
+        paginationClickable: true,
+        centeredSlides: true,
+        slidesPerView: 'auto',
+        watchActiveIndex: true,
+        keyboardControl:true
+    });
 });
