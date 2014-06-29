@@ -7,14 +7,17 @@
   </header>
   <div class="overlay"></div>
 </section>
-<section class="issflyby intro">
-	<div class="swiper-container">
-	<h1>ISS Flyby</h1>
-	<h2>Notifications to your Google Glass as the ISS approaches.</h2>
-    <p>Ruby on Rails, Google Glass Mirror API.</p>
+<section class="intro">
+    <header>
+      <h1>ISS Flyby</h1>
+      <h2>Notifications to your Google Glass as the ISS approaches.</h2>
+      <h3>Ruby on Rails, Google Glass Mirror API.</h3>
+    </header>
+	<div class="swiper-container issflyby">
 	  <div class="swiper-wrapper">
 	    <div class="swiper-slide swiper-slide-visible swiper-slide-active">
-		    <div class="glasscard">
+          <div class="description"><p>Get notifications to your Google Glass as the ISS approaches.</p></div>
+          <div class="glasscard">
 		    	<%= image_tag("iss.jpg") %>
 			    <p>International Space Station flyby coming up  at 05:33 AM CST!</p>
 			    <footer><span class="source">ISS Flyby</span><span class="time">3 mins ago</span></footer>
@@ -70,15 +73,15 @@
   <header>
     <h1>Tangelo</h1>
     <h2>Track projects and skillsets across an organization.</h2>
-    <p>AngularJS + NodeJS. Internal application for Warren Douglas.</p>
+    <h3>AngularJS + NodeJS. Internal application for Warren Douglas.</h3>
   </header>
-  <%= image_tag('tangelo.png') %>
+  <%= image_tag('tangelo.png', class: 'fullwidth') %>
 </section>
 <section class="personaloptics intro">
 	<header>
 		<h1>Personal Optics</h1>
 		<h2>Appointment application and brand site.</h2>
-        <p>Ruby on Rails, AngularJS, Twilio API integration with automated reporting. Client work for Warren Douglas.</p>
+        <h3>Ruby on Rails, AngularJS, Twilio API integration with automated reporting. Client work for Warren Douglas.</h3>
 	</header>
 	<%= image_tag("personaloptics_side_crop.png") %>
 </section>

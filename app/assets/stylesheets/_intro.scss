@@ -7,7 +7,13 @@
 .intro{
   h1{font-size:2em;}
   h2{font-size: 1.5em;}
-  p{font-size: 1em;}
+  h3{font-size: 1em;}
+  header{
+    @include span-columns(12);
+    padding: 2em;
+  }
+  video{@include span-columns(6);}
+
 }
 .wrapper{
   @include span-columns(6);
@@ -29,7 +35,6 @@ $largedesktop-cardscale:1;
   color: #fff;
   background-size: cover;
   background-attachment: fixed;
-  padding: 2em 1em;
   h1{
     font-weight: 100;
     @include media($desktop) {
@@ -50,6 +55,7 @@ $largedesktop-cardscale:1;
 }
 .description{
   width:640px*$cardscale;
+  text-align: left;
   @include media($largemobile) {
     font-size:1em;
     width:640px*$largemobile-cardscale;
@@ -156,8 +162,9 @@ $largedesktop-cardscale:1;
   width: 100%;
   height: 800px;
   color: #fff;
+  padding: 2em 0;
   @include media($largemobile) {
-    height: 500px;
+    height: 350px;
   }
   @include media($smalltablet) {
     height:395px;
@@ -172,9 +179,7 @@ $largedesktop-cardscale:1;
 
 }
 .swiper-wrapper{
-  @include media($largemobile) {
-    height: 350px;
-  }
+  height: 250px !important;
   @include media($desktop) {
     max-height:405px;
     padding: 2em 0 0 0;
@@ -269,7 +274,7 @@ $largedesktop-cardscale:1;
   left: 0px;
   width: 100%;
   text-align: center;
-  margin: 0.3em 0;
+  margin: 1.2em 0;
 }
 .swiper-pagination-switch {
   display: inline-block;
@@ -302,11 +307,4 @@ $largedesktop-cardscale:1;
   header{@include span-columns(6 of 12);}
   img{@include span-columns(3 of 12); @include shift(1);}
 }
-.tangelo{
-  header{
-    @include span-columns(12);
-    padding: 2em;
-  }
-  video{@include span-columns(6);}
-  img{@include span-columns(12);}
-}
+.fullwidth{@include span-columns(12);}
