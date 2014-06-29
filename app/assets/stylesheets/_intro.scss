@@ -311,4 +311,19 @@ $largedesktop-cardscale:1;
   }
 }
 .fullwidth{@include span-columns(12);}
-.contact{padding: 2em;}
+.contact{
+  padding: 2em;
+  @include span-columns(12 of 12);
+}
+.icon{
+  height: 1em;
+  vertical-align: middle;
+}
+.link{
+  @include span-columns(12 of 12);
+  border: 1px solid #333333;
+  padding: 1em 0;
+  text-align: center;
+  display: block;
+  &:last-of-type{margin-top: 1em;}
+}
