@@ -103,8 +103,8 @@
       <file leaf-file-name="intro.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/pages/intro.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7348837" vertical-offset="564" max-vertical-offset="1854">
-              <caret line="84" column="52" selection-start-line="84" selection-start-column="52" selection-end-line="84" selection-end-column="52" />
+            <state vertical-scroll-proportion="0.6778043" vertical-offset="926" max-vertical-offset="1890">
+              <caret line="83" column="45" selection-start-line="83" selection-start-column="45" selection-end-line="83" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -702,7 +702,11 @@
       <created>1404080505932</created>
       <updated>1404080505932</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Removes ugly email icon">
+      <created>1404080882412</created>
+      <updated>1404080882412</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -715,7 +719,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328879" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3355605" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3355605" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.11759902" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962137" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -745,7 +749,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="Adds user model" />
     <MESSAGE value="Adds projects scaffold" />
     <MESSAGE value="Adds posts scaffold" />
     <MESSAGE value="Deletes scaffold scss" />
@@ -770,7 +773,8 @@
     <MESSAGE value="Adds contact section" />
     <MESSAGE value="Moves js out of intro page" />
     <MESSAGE value="modifies contact link styling" />
-    <option name="LAST_COMMIT_MESSAGE" value="modifies contact link styling" />
+    <MESSAGE value="Removes ugly email icon" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removes ugly email icon" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1153,8 +1157,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/pages/intro.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7348837" vertical-offset="564" max-vertical-offset="1854">
-          <caret line="84" column="52" selection-start-line="84" selection-start-column="52" selection-end-line="84" selection-end-column="52" />
+        <state vertical-scroll-proportion="0.6778043" vertical-offset="926" max-vertical-offset="1890">
+          <caret line="83" column="45" selection-start-line="83" selection-start-column="45" selection-end-line="83" selection-end-column="45" />
           <folding />
         </state>
       </provider>
