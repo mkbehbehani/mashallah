@@ -303,8 +303,6 @@ $largedesktop-cardscale:1;
 }
 .personaloptics{
   @include span-columns(12);
-  padding:2em;
-  header{@include span-columns(6 of 12);}
-  img{@include span-columns(3 of 12); @include shift(1);}
+  img{@include span-columns(8 of 12); @include shift(2);}
 }
 .fullwidth{@include span-columns(12);}
