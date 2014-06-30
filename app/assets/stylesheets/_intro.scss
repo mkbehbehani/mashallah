@@ -10,6 +10,9 @@
   h3{font-size: 1em;}
   header{
     @include span-columns(12);
+    @include media($desktop){
+      @include span-columns(6);
+    }
     padding: 2em;
   }
   video{@include span-columns(6);}
@@ -272,6 +275,9 @@ $largedesktop-cardscale:1;
   }
   .imagewrap{
     @include span-columns(12);
+    @include media($desktop){
+      @include span-columns(6);
+    }
     padding: 2em 0 0 0;
     background-image: url(image_path('struckaxiom.png'));
   }

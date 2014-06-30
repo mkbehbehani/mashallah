@@ -93,8 +93,8 @@
       <file leaf-file-name="_intro.scss" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/_intro.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.2981132" vertical-offset="4011" max-vertical-offset="5508">
-              <caret line="236" column="4" selection-start-line="236" selection-start-column="4" selection-end-line="236" selection-end-column="4" />
+            <state vertical-scroll-proportion="0.9320755" vertical-offset="4389" max-vertical-offset="5616">
+              <caret line="285" column="9" selection-start-line="285" selection-start-column="9" selection-end-line="285" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -710,7 +710,11 @@
       <created>1404086278686</created>
       <updated>1404086278686</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="removes pagination bug on ipad">
+      <created>1404087251352</created>
+      <updated>1404087251352</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -753,7 +757,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="Sets up static assets config" />
     <MESSAGE value="Adds video files" />
     <MESSAGE value="Adds video trigger js" />
     <MESSAGE value="Updates copy" />
@@ -778,7 +781,8 @@
     <MESSAGE value="fixes san rafael bg" />
     <MESSAGE value="fixes background image pattern url" />
     <MESSAGE value="Removes conflicting glasscard text styling" />
-    <option name="LAST_COMMIT_MESSAGE" value="Removes conflicting glasscard text styling" />
+    <MESSAGE value="removes pagination bug on ipad" />
+    <option name="LAST_COMMIT_MESSAGE" value="removes pagination bug on ipad" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1161,8 +1165,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/_intro.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2981132" vertical-offset="4011" max-vertical-offset="5508">
-          <caret line="236" column="4" selection-start-line="236" selection-start-column="4" selection-end-line="236" selection-end-column="4" />
+        <state vertical-scroll-proportion="0.9320755" vertical-offset="4389" max-vertical-offset="5616">
+          <caret line="285" column="9" selection-start-line="285" selection-start-column="9" selection-end-line="285" selection-end-column="9" />
           <folding />
         </state>
       </provider>
