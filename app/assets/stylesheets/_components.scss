@@ -81,6 +81,9 @@
       @include media($smalltablet) {
         font-size: 1.7em;
       }
+      @include media($largedesktop) {
+        font-size: 2em;
+      }
       line-height: 1.5em;
       position: relative;
       color: white;

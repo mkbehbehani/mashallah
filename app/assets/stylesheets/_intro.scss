@@ -7,9 +7,33 @@
 @import "colors";
 
 .intro{
-  h1{font-size:2em;}
-  h2{font-size: 1.5em;}
-  h3{font-size: 1em;}
+  h1{
+    font-size:2em;
+    @include media($meddesktop){
+      font-size:3em;
+      line-height: 1.5em;
+
+    }
+  }
+  h2{
+    font-size: 1.5em;
+    @include media($meddesktop){
+      font-size:2em;
+    }
+  }
+  h3{
+    font-size: 1em;
+    @include media($meddesktop){
+      font-size:1.25em;
+      line-height: 1.5em;
+    }
+  }
+  a{
+    @include media($meddesktop){
+      font-size:1.25em;
+      line-height: 1.5em;
+    }
+  }
   header{
     @include span-columns(12);
     @include media($desktop){
@@ -175,6 +199,10 @@ $largedesktop-cardscale:1;
   @include media($desktop) {
     height:525px;
   }
+  @include media($meddesktop){
+    padding: 4em 0;
+    height: 575px;
+  }
 
 }
 .swiper-wrapper{
@@ -289,12 +317,18 @@ $largedesktop-cardscale:1;
   }
 }
 .fullwidth{@include span-columns(12);}
-.contact{
+.contact {
   padding: 2em;
   @include span-columns(12 of 12);
-  @include media($desktop){
+  @include media($desktop) {
     border-top: 1px solid $accentcolor;
     text-align: center;
+  }
+  p, a {
+    @include media($meddesktop) {
+      font-size: 1.25em;
+      line-height: 1.5em;
+    }
   }
 }
 .icon{
@@ -308,6 +342,9 @@ $largedesktop-cardscale:1;
   }
   @include media($tablet) {
     @include span-columns(6 of 12); @include shift(3);
+  }
+  @include media($largedesktop) {
+    @include span-columns(4 of 12); @include shift(4);
   }
   border: 1px solid $accentcolor;
   padding: 1em 0;
@@ -325,4 +362,12 @@ $largedesktop-cardscale:1;
   @include media($meddesktop) {
     max-height: 850px;
   }
-}
+  @include media($largedesktop) {
+    max-height: 950px;
+  }
+  @include media($cinemadisplay) {
+    max-height: 1175px;
+  }
+
+ }
+.tangelo{ border-top: none;}
