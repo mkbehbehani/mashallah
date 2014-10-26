@@ -64,7 +64,7 @@ $largedesktop-cardscale:1;
   background-image: url(image_path('san_rafael.jpg'));
   color: #fff;
   background-size: cover;
-  background-attachment: fixed;
+  
   h1{
     font-weight: 100;
     @include media($desktop) {
